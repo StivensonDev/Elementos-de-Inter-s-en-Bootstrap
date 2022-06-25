@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div>
+        <section class="row">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Seccion Jumbotron</h1>
+                        <p class="col-md-8 fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Earum voluptatem iusto, voluptas, doloribus nostrum dicta 
+                      ipsam odio laboriosam aut eum mollitia libero voluptatibus 
+                      fuga ad. Adipisci impedit atque, magni, molestiae, officia 
+                      eveniet omnis nesciunt aspernatur quaerat consectetur porro eos sequi?
+                        </p>
+                    <button
+                        class="btn btn-primary btn-lg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal-ejemplo"
+                        >Botón sección
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div>
+            <section class="row p-5">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="number" class="form-control" id="telefono" placeholder="Ingresa tu numero de contacto">
+                </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Deja tu mensaje</label>
+                        <textarea type="text" class="form-control" id="mensaje" placeholder="Deja tu mensaje" ></textarea>
+                    </div>
+                </div>    
+            </section>  
+        </div>
+        
+        <div>
+            <section class="row p-5">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Stivenson Sosa</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Front-End Dev</h6>
+                      <p class="card-text">Programador Front-End junior, responsable, serio, con altas capacidades de adaptabilidad.</p>
+                        <div class="card-footer">
+                            <a href="mailto:stivenson.sosa@gmail.com">stivenson.sosa@gmail.com</a>
+                        </div>
+                    </div>
+                  </div>
+            </section>
+        </div>
+        <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
